@@ -28,11 +28,11 @@ ul {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
+    color: #4d5ae5 ;
 }
 
-.logo .web {
-    color: #4d5ae5;
+.header-studio {
+    color: #2e2f42;
 }
 
 .nav-list {}
@@ -48,7 +48,9 @@ ul {
     color: #2e2f42;
 }
 
-.address {}
+.address {
+    font-style: normal;
+}
 
 .address-list {}
 
@@ -82,7 +84,7 @@ ul {
     font-weight: 700;
     font-size: 56px;
     /* line-height: 60px; */
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #ffffff;
@@ -100,6 +102,7 @@ ul {
     letter-spacing: 0.04em;
     color: #ffffff;
     background-color: #4d5AE5;
+    cursor: pointer;
 }
 
 .button:hover,
@@ -137,14 +140,20 @@ ul {
     background-color: #f4f4fd;
 }
 
-.team-title {}
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    /* line-height: 40px; */ 
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
 
 .team-list {}
 
 .team-item {
-    width: 264px;
-    height: 380px;
-
+    
     background-color: #ffffff;
 }
 
@@ -168,21 +177,17 @@ ul {
     color: #434455;
 }
 
-.team-item img {
-    width: 264px;
-    height: 260px;
-}
-
 .card {}
 
 .card-title {
     font-weight: 700;
     font-size: 36px;
     /* line-height: 40px; */
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
-    color: var(--navy-blue);
+    color: #2e2f42;
+    text-transform: capitalize
 }
 
 .card-list {}
@@ -198,7 +203,7 @@ ul {
     /* line-height: 24px; */
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--navy-blue);
+    color: #2e2f42;
 }
 
 .card-text {
@@ -210,15 +215,10 @@ ul {
     color: #434455;
 }
 
-.card-item img {
-    width: 360px;
-    height: 300px;
-}
-
 .footer {
     background-color: #2e2f42;
 }
-.footer .logo{color: #f4f4fd;}
+.footer-studio{color: #f4f4fd;}
 
 .footer-text {
     font-weight: 400;
