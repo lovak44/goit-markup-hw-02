@@ -92,8 +92,6 @@ ul {
 }
 
 .button {
-    width: 169px;
-    height: 56px;
     font-weight: 500;
     font-size: 16px;
     text-align: center;
@@ -148,6 +146,7 @@ ul {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize
 }
 
 .team-list {}
@@ -192,10 +191,7 @@ ul {
 
 .card-list {}
 
-.card-item {
-    width: 360px;
-    height: 420px;
-}
+.card-item {}
 
 .card-subtitle {
     font-weight: 500;
