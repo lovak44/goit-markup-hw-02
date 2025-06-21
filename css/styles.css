@@ -48,13 +48,13 @@ ul {
     color: #2e2f42;
 }
 
-.adress {}
+.address {}
 
-.adress-list {}
+.address-list {}
 
-.adress-item {}
+.address-item {}
 
-.adress-link {
+.address-link {
     font-weight: 400;
     font-size: 16px;
     /* line-height: 24px; */
@@ -62,14 +62,18 @@ ul {
     letter-spacing: 0.02em;
     color: #434455;
 }
+
 .nav-link:hover,
 .nav-link:focus,
-.adress-link:hover,
-.adress-link:focus,
- {
+.address-link:hover,
+.address-link:focus {
     color: #404bbf;
 }
+.nav-link:active {
+    color: #404bbf;
+    text-decoration:underline;
 
+}
 .hero {
     background-color: #2e2f42;
 }
@@ -105,7 +109,7 @@ ul {
 
 .strengths {}
 
-.strengths-title {}
+.strengths-title {visibility: hidden;}
 
 .strengths-list {}
 
@@ -214,6 +218,7 @@ ul {
 .footer {
     background-color: #2e2f42;
 }
+.footer .logo{color: #f4f4fd;}
 
 .footer-text {
     font-weight: 400;
