@@ -62,6 +62,13 @@ ul {
     letter-spacing: 0.02em;
     color: #434455;
 }
+.nav-link:hover,
+.nav-link:focus,
+.adress-link:hover,
+.adress-link:focus,
+ {
+    color: #404bbf;
+}
 
 .hero {
     background-color: #2e2f42;
@@ -89,6 +96,11 @@ ul {
     letter-spacing: 0.04em;
     color: #ffffff;
     background-color: #4d5AE5;
+}
+
+.button:hover,
+.button:focus {
+    background-color: #404bbf;
 }
 
 .strengths {}
